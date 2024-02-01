@@ -18,14 +18,11 @@ public class Calculator {
 
         if(str.equals("+")){
             System.out.println(a + b);
-        }
-        if(str.equals("-")){
+        } else if(str.equals("-")){
             System.out.println(a - b);
-        }
-        if(str.equals("*")){
+        } else if(str.equals("*")){
             System.out.println(a * b);
-        }
-        if(str.equals("/")){
+        } else if(str.equals("/")){
             System.out.println(a / b);
         }
 
