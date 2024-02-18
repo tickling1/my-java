@@ -28,11 +28,12 @@ public class ScannerEx5 {
         }
         System.out.print(num2);*/
 
-        for (int i = num1; i <= num2; i++){
-            System.out.print(i);
-            if (i != num2){
+        for (; num1 <= num2; num1++){
+            System.out.print(num1);
+            if (num1 != num2){
                 System.out.print(",");
             }
         }
+        
     }
 }
