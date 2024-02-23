@@ -2,7 +2,7 @@ package array.ex;
 
 import java.util.Scanner;
 
-public class ProductManage {
+public class ProductAdminEx {
 
     public static void main(String[] args) {
 
